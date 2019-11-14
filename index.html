@@ -95,9 +95,6 @@
         padding: 0 !important;
         margin: 0 !important;
     }</style>
-    <link rel='stylesheet'
-          href='styles.css'
-          type='text/css' media='all'/>
     <meta content="1939 Register,census,population,statistics" name="keywords">
     <meta content="1. What are these records?
 The 1939 Register provides a snapshot of the civilian population of England and Wales just after the outbreak of the Second World War.
@@ -127,7 +124,7 @@ As the 1931 census for England and Wales was destroyed by fire during..." name="
           rel="alternate">
 
     <link rel="stylesheet" type="text/css"
-          href="https://nationalarchives.gov.uk/wp-content/themes/tna/css/base-sass.css.min?20170411">
+          href="base-sass.min.css">
     <link rel="stylesheet" type="text/css" href="https://nationalarchives.gov.uk/wp-content/themes/tna/css/images.css">
 
     <link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
@@ -192,59 +189,82 @@ As the 1931 census for England and Wales was destroyed by fire during..." name="
 </head>
 
 <body>
+<div id="page_wrap" class="container research-guide-indepth" role="main">
+    <div class="row">
+        <div class="col starts-at-full ends-at-two-thirds box clr">
+            <div class="breather">
+                <h2 class="rebrand">New tabpanel</h2>
 
-<div class="breather">
-    <h2 class="rebrand">New tabpanel</h2>
+                <h2 class="indicator no-print">How can I view the records covered in this guide?</h2>
 
-    <div class="indicator" role="tabpanel" aria-label="How can I view the records review in this guide?" id="delivery-options-tablist">
+                <div class="indicator" role="tablist" aria-label="How can I view the records review in this guide?"
+                     id="delivery-options-tablist">
 
-        <h2>How can I view the records covered in this guide?</h2>
 
-        <div class="item">
-            <button role="tab" aria-selected="true" aria-controls="delivery-options-tablist" id="dot-view-online" class="dot-button">
-                View Online
-            </button>
-            <div aria-labelledby="dot-view-online" class="dot-description">
-                <p>How many are online?</p>
-                    <ul>
-                        <li aria-current="false">None</li>
-                        <li aria-current="false">Some</li>
-                        <li class="all-small" aria-current="true">All</li>
-                    </ul>
+                    <div class="item active">
+                        <button role="tab" aria-selected="true" aria-controls="delivery-options-tablist"
+                                id="view-online"
+                                class="toggle-heading no-print all">
+                            View Online
+                        </button>
+                        <div class="indicator-description clr" aria-labelledby="view-online">
+                            <div class="breather"><p>How many are online?</p>
+                                <ul>
+                                    <li aria-current="false">None</li>
+                                    <li aria-current="false">Some</li>
+                                    <li class="all-small" aria-current="true">All</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item no-print">
+                        <button role="tab" aria-selected="false" aria-controls="delivery-options-tablist"
+                                class="toggle-heading none" id="order-copies">
+                            Order copies
+                        </button>
+                        <div class="indicator-description clr" aria-labelledby="order-copies" aria-hidden="true"
+                             style="display: none;">
+                            <div class="breather"><p>We do not provide copies of online records – please download to
+                                view</p></div>
+                        </div>
+                    </div>
+
+                    <div class="item no-print">
+                        <button role="tab" aria-selected="false" aria-controls="delivery-options-tablist"
+                                class="toggle-heading"
+                                id="visit-us">
+                            Visit us in Kew
+                        </button>
+                        <div class="indicator-description clr" aria-labelledby="visit-us" aria-hidden="true"
+                             style="display: none;">
+                            <div class="breather"><p><a href="/about/visit-us/">Visit us in Kew</a> to see original
+                                documents or
+                                view
+                                online records for free</p></div>
+                        </div>
+                    </div>
+
+                    <div class="item no-print">
+                        <button role="tab" aria-selected="false" aria-controls="delivery-options-tablist"
+                                id="pay-research"
+                                class="toggle-heading">
+                            Pay for research
+                        </button>
+
+                        <div class="indicator-description clr" aria-labelledby="pay-research" aria-hidden="true"
+                             style="display: none;">
+                            <div class="breather"><p>Consider <a href="/help-with-your-research/paying-for-research">paying
+                                for
+                                research</a></p></div>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
         </div>
-
-        <div class="item none">
-            <button role="tab" aria-selected="false" aria-controls="delivery-options-tablist" id="dot-order-copies" class="dot-button none">
-                Order copies
-            </button>
-            <div aria-labelledby="dot-order-copies" class="dot-description">
-                <p>We do not provide copies of online records – please download to view</p>
-            </div>
-        </div>
-
-
-        <div class="item">
-            <button role="tab" aria-selected="false" aria-controls="delivery-options-tablist" id="dot-visit-us" class="dot-button">
-                Visit us in Kew
-            </button>
-            <div aria-labelledby="dot-visit-us" class="dot-description">
-                <p><a href="/about/visit-us/">Visit us in Kew</a> to see original documents or
-                    view online records for free</p></div>
-        </div>
-
-        <div class="item">
-            <button role="tab" aria-selected="false" aria-controls="delivery-options-tablist" id="dot-pay-for-research" class="dot-button">
-                Pay for research
-            </button>
-            <div aria-labelledby="dot-pay-for-research" class="dot-description">
-                <p>Consider <a href="/help-with-your-research/paying-for-research">paying for
-                    research</a></p>
-            </div>
-        </div>
-
     </div>
-
 </div>
 
 <script src="jquery-2.0.3.js"></script>

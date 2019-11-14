@@ -92,7 +92,7 @@
 
         // Start - Access indicator
         var $buttons = $('.dot-button'),
-            $descriptions = $('.dot-description');
+            $descriptions = $('.indicator-description');
 
         $buttons.eq(0).attr('aria-selected', true);
         $buttons.eq(0).parent().addClass('active');
