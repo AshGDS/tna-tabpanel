@@ -2605,14 +2605,14 @@ a.hue-red,a.hue-teal {
 }
 
 .indicator .active {
-    background: url(http://localhost:8080/wp-content/themes/tna/images/records/icon-up-arrow.png) no-repeat 60px 27px
+    background: url(http://nationalarchives.gov.uk/wp-content/themes/tna/images/records/icon-up-arrow.png) no-repeat 60px 27px
 }
 
 .indicator button {
     display: inline-block;
     color: #111;
     margin-bottom: 15px;
-    background: url(http://localhost:8080/wp-content/themes/tna/images/records/icon-availability-all.png) no-repeat;
+    background: url(http://nationalarchives.gov.uk/wp-content/themes/tna/images/records/icon-availability-all.png) no-repeat;
     background-size: 23px;
     font-size: .95em;
     font-family: "Open sans",serif;
@@ -2629,12 +2629,12 @@ a.hue-red,a.hue-teal {
 }
 
 .indicator button.some {
-    background: url(http://localhost:8080/wp-content/themes/tna/images/records/icon-availability-some.png) no-repeat;
+    background: url(http://nationalarchives.gov.uk/wp-content/themes/tna/images/records/icon-availability-some.png) no-repeat;
     background-size: 23px
 }
 
 .indicator button.none {
-    background: url(http://localhost:8080/wp-content/themes/tna/images/records/icon-availability-none.png) no-repeat;
+    background: url(http://nationalarchives.gov.uk/wp-content/themes/tna/images/records/icon-availability-none.png) no-repeat;
     background-size: 23px
 }
 
@@ -3583,17 +3583,17 @@ span.guidance-description {
     }
 
     .indicator button {
-        background: url(http://localhost:8080/wp-content/themes/tna/images/records/icon-availability-all.png) no-repeat;
+        background: url(http://nationalarchives.gov.uk/wp-content/themes/tna/images/records/icon-availability-all.png) no-repeat;
         background-size: 23px
     }
 
     .indicator button.some {
-        background: url(http://localhost:8080/wp-content/themes/tna/images/records/icon-availability-some.png) no-repeat;
+        background: url(http://nationalarchives.gov.uk/wp-content/themes/tna/images/records/icon-availability-some.png) no-repeat;
         background-size: 23px
     }
 
     .indicator button.none {
-        background: url(http://localhost:8080/wp-content/themes/tna/images/records/icon-availability-none.png) no-repeat;
+        background: url(http://nationalarchives.gov.uk/wp-content/themes/tna/images/records/icon-availability-none.png) no-repeat;
         background-size: 23px
     }
 

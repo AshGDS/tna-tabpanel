@@ -73,7 +73,8 @@
             }
         });
 
-        $headings.on('click', function () {
+        $headings.on('click', function (e) {
+            e.preventDefault();
             var $this = $(this),
                 id = $this.attr('id'),
                 selector = '[aria-labelledby=' + id + ']';
@@ -82,36 +83,6 @@
             $this.attr('aria-selected', true);
 
             $headings.parent().removeClass('active');
-            $this.parent().addClass('active');
-
-            $descriptions.attr('aria-hidden', true).hide();
-
-            $(selector).attr('aria-hidden', false).show();
-
-        })
-
-        // Start - Access indicator
-        var $buttons = $('.dot-button'),
-            $descriptions = $('.indicator-description');
-
-        $buttons.eq(0).attr('aria-selected', true);
-        $buttons.eq(0).parent().addClass('active');
-
-        $descriptions.each(function (index, value) {
-            if (index > 0) {
-                $(value).attr('aria-hidden', true).hide();
-            }
-        });
-
-        $buttons.on('click', function () {
-            var $this = $(this),
-                id = $this.attr('id'),
-                selector = '[aria-labelledby=' + id + ']';
-
-            $buttons.attr('aria-selected', false);
-            $this.attr('aria-selected', true);
-
-            $buttons.parent().removeClass('active');
             $this.parent().addClass('active');
 
             $descriptions.attr('aria-hidden', true).hide();
