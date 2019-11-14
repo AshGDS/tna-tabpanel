@@ -197,66 +197,50 @@ As the 1931 census for England and Wales was destroyed by fire during..." name="
 
                 <h2 class="indicator no-print">How can I view the records covered in this guide?</h2>
 
-                <div class="indicator" role="tablist" aria-label="How can I view the records review in this guide?"
-                     id="delivery-options-tablist">
+                <div class="indicator" role="tablist" aria-label="How can I view the records review in this guide?" id="delivery-options-tablist">
 
-
-                    <div class="item active">
-                        <button role="tab" aria-selected="true" aria-controls="delivery-options-tablist"
-                                id="view-online"
-                                class="toggle-heading no-print all">
+                    <div class="item">
+                        <button role="tab" aria-selected="false" aria-controls="delivery-options-tablist" id="view-online" class="toggle-heading no-print all">
                             View Online
                         </button>
-                        <div class="indicator-description clr" aria-labelledby="view-online">
-                            <div class="breather"><p>How many are online?</p>
-                                <ul>
-                                    <li aria-current="false">None</li>
-                                    <li aria-current="false">Some</li>
-                                    <li class="all-small" aria-current="true">All</li>
-                                </ul>
+                        <div class="indicator-description clr" aria-labelledby="view-online" role="tabpanel" tabindex="0" aria-hidden="true" style="display: none;">
+                            <div class="breather">
+                                <p>How many are online?</p> <ul role="presentation"><li aria-hidden="true">None</li><li aria-hidden="true">Some</li><li class="all-small">All</li></ul></div>
+                        </div>
+                    </div>
+
+                    <div class="item no-print">
+                        <button role="tab" aria-selected="false" aria-controls="delivery-options-tablist" class="toggle-heading none" id="order-copies">
+                            Order copies
+                        </button>
+                        <div class="indicator-description clr" aria-labelledby="order-copies" role="tabpanel" tabindex="0" aria-hidden="true" style="display: none;">
+                            <div class="breather">
+                                <p>We do not provide copies of online records – please download to view</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item no-print active">
+                        <button role="tab" aria-selected="true" aria-controls="delivery-options-tablist" class="toggle-heading" id="visit-us">
+                            Visit us in Kew
+                        </button>
+                        <div class="indicator-description clr" aria-labelledby="visit-us" role="tabpanel" tabindex="0" aria-hidden="false" style="display: block;">
+                            <div class="breather">
+                                <p><a href="/about/visit-us/">Visit us in Kew</a> to see original documents or view online records for free</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="item no-print">
-                        <button role="tab" aria-selected="false" aria-controls="delivery-options-tablist"
-                                class="toggle-heading none" id="order-copies">
-                            Order copies
-                        </button>
-                        <div class="indicator-description clr" aria-labelledby="order-copies" aria-hidden="true"
-                             style="display: none;">
-                            <div class="breather"><p>We do not provide copies of online records – please download to
-                                view</p></div>
-                        </div>
-                    </div>
-
-                    <div class="item no-print">
-                        <button role="tab" aria-selected="false" aria-controls="delivery-options-tablist"
-                                class="toggle-heading"
-                                id="visit-us">
-                            Visit us in Kew
-                        </button>
-                        <div class="indicator-description clr" aria-labelledby="visit-us" aria-hidden="true"
-                             style="display: none;">
-                            <div class="breather"><p><a href="/about/visit-us/">Visit us in Kew</a> to see original
-                                documents or
-                                view
-                                online records for free</p></div>
-                        </div>
-                    </div>
-
-                    <div class="item no-print">
-                        <button role="tab" aria-selected="false" aria-controls="delivery-options-tablist"
-                                id="pay-research"
-                                class="toggle-heading">
+                        <button role="tab" aria-selected="false" aria-controls="delivery-options-tablist" id="pay-research" class="toggle-heading">
                             Pay for research
                         </button>
 
-                        <div class="indicator-description clr" aria-labelledby="pay-research" aria-hidden="true"
-                             style="display: none;">
-                            <div class="breather"><p>Consider <a href="/help-with-your-research/paying-for-research">paying
-                                for
-                                research</a></p></div>
+                        <div class="indicator-description clr" aria-labelledby="pay-research" role="tabpanel" tabindex="0" aria-hidden="true" style="display: none;">
+                            <div class="breather">
+                                <p>Consider <a href="/help-with-your-research/paying-for-research">paying for
+                                    research</a></p>
+                            </div>
                         </div>
                     </div>
 
