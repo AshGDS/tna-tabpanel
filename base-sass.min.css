@@ -2612,7 +2612,7 @@ a.hue-red,a.hue-teal {
     display: inline-block;
     color: #111;
     margin-bottom: 15px;
-    background: url(https://nationalarchives.gov.uk/wp-content/themes/tna/images/records/icon-availability-all.png) no-repeat;
+    background: url(tna-tick.svg) no-repeat;
     background-size: 23px;
     font-size: .95em;
     font-family: "Open sans",serif;
@@ -2629,12 +2629,12 @@ a.hue-red,a.hue-teal {
 }
 
 .indicator button.some {
-    background: url(https://nationalarchives.gov.uk/wp-content/themes/tna/images/records/icon-availability-some.png) no-repeat;
+    background: url(tna-tick-some.svg) no-repeat;
     background-size: 23px
 }
 
 .indicator button.none {
-    background: url(https://nationalarchives.gov.uk/wp-content/themes/tna/images/records/icon-availability-none.png) no-repeat;
+    background: url(tna-cross.svg) no-repeat;
     background-size: 23px
 }
 
@@ -3431,7 +3431,7 @@ span.guidance-description {
     }
 
     .indicator button {
-        padding: 2px 2px 0 26px
+        padding: 3px 2px 0 26px
     }
 
     .indicator ul {
@@ -3583,17 +3583,17 @@ span.guidance-description {
     }
 
     .indicator button {
-        background: url(https://nationalarchives.gov.uk/wp-content/themes/tna/images/records/icon-availability-all.png) no-repeat;
+        background: url(tna-tick.svg) no-repeat;
         background-size: 23px
     }
 
     .indicator button.some {
-        background: url(https://nationalarchives.gov.uk/wp-content/themes/tna/images/records/icon-availability-some.png) no-repeat;
+        background: url(tna-tick-some.svg) no-repeat;
         background-size: 23px
     }
 
     .indicator button.none {
-        background: url(https://nationalarchives.gov.uk/wp-content/themes/tna/images/records/icon-availability-none.png) no-repeat;
+        background: url(tna-cross.svg) no-repeat;
         background-size: 23px
     }
 
