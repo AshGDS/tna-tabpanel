@@ -2691,18 +2691,18 @@ a.hue-red,a.hue-teal {
 }
 
 .indicator ul li.none-small {
-    background-color: #cb0d07;
-    color: #fff
+    background-color: #26262a;
+    color: #fff;
 }
 
 .indicator ul li.some-small {
-    background-color: #ebab00;
-    color: #000
+    background-color: #26262a;
+    color: #fff;
 }
 
 .indicator ul li.all-small {
     background-color: #26262a;
-    color: #fff
+    color: #fff;
 }
 
 .research-guide-form form {
